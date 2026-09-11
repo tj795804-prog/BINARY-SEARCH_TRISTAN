@@ -1,1 +1,20 @@
- ## Laboratory Activity: Recursion
+## Laboratory Activity: Recursion
+
+## Brief description of the program
+This Java program demonstrates recursive binary search on a user-defined array. At runtime, the user specifies the array size, enters each element, and provides the target value to search for. The program sorts the array in ascending order first, since binary search requires sorted input to function correctly. During each recursive call, the method prints the current low, high, and mid indices, allowing the search range to be tracked as it narrows step by step. When the recursion finishes, the program outputs either the index where the target was found or -1 if the value doesn't exist in the array.
+
+## Programing language used
+Written in Java (built and tested using Java SE), relying only on the standard library — specifically java.util.Arrays and java.util.Scanner — with no external dependencies.
+
+## Instructions for compiling/running the program
+1.Save the source code in a file called exactly Binary_Search.java (the filename needs to match the public class name).
+2.Open a terminal or command prompt in the directory where the file is located.
+3.Compile the program.
+4.Run the compiled program.
+5.When prompted, provide: *the total number of array elements, *each element individually (order doesn't matter, since the program sorts them automatically), *the value you're searching for.
+6.The program will output the sorted array, the recursion trace (in the trace-enabled version), and finally the search result — whether the target was located and its index.
+## input and output 
+
+
+## AI Disclosure
+I used Claude to review my code for any missing characters or syntax errors and to fix them.
